@@ -14,8 +14,11 @@ https://dummyjson.com/docs/todos
     * add 2 elements and align them in the center using flex box.
     * make the elements get the data from the useState.
     * add one button and animate it's hover transition
-    * use the button to submit data in a form. 
+    * use the button to submit data in a form (bonus: using react-hook-form). 
 * Retrieve all the users from in the RSC https://dummyjson.com/docs/users
+* Add a next/image
+* How are you managing caching in nextjs? How do you revalidate a cache?
+
 ## Bugs
 
 * The GET call throws a 404. 
@@ -39,3 +42,5 @@ https://dummyjson.com/docs/todos
 
 * Use parralel routes to render both the info of one todo but also the info of dummyjson.com/users/me
 * Add pagination
+* Add a test case 
+* Global errors 
