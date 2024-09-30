@@ -8,8 +8,8 @@ import { Clock, MoreVerticalIcon } from "lucide-react";
 import { Skeleton } from "@/components/ui/skeleton";
 
 export default function TodoList() {
-    
-    const {data, isLoading} = useQuery({
+
+    const { data, isLoading } = useQuery({
         queryKey: ['todos'],
         queryFn: async () => fetchTodos()
     })
@@ -19,7 +19,6 @@ export default function TodoList() {
             <div className="flex flex-col gap-3">
                 {data?.todos.map((todo) =>
                     <div className="flex flex-row  justify-between items-center p-3 bg-white rounded-md">
-
                         <div className="flex flex-row gap-5 items-center">
                             <Checkbox />
                             <Text className="">{todo.todo}</Text>
@@ -37,7 +36,7 @@ export default function TodoList() {
                     </div>)}
             </div>
 
-          
+
         </> : <div className="flex flex-col gap-3">
             <Skeleton className="h-12  p-3 rounded-md" />
             <Skeleton className="h-12  p-3 rounded-md" />

@@ -20,7 +20,7 @@ https://dummyjson.com/docs/todos
 * How are you managing caching in nextjs? How do you revalidate a cache?
 
 ## Bugs
-
+* You're importing a component that needs useState....
 * The GET call throws a 404. 
     * Throw a meaningful error and inform the user that an error has occured.
     * Fix the error 

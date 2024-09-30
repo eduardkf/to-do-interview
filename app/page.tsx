@@ -1,5 +1,3 @@
-"use client"
-
 import NewTodo from "@/features/home/NewTodo";
 import HomeTitle from "@/features/home/Title";
 import TodoList from "@/features/home/TodoList";
