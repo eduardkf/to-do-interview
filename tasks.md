@@ -7,7 +7,7 @@ https://dummyjson.com/docs/todos
 
 * Create a new page on localhost:3000/test
 * Using locahlhost:3000/test?name="Mos Craciun&age="200" capture the name parameter and save it in a useState
-* Create a React Server Component. How do we know that it is running on the server?
+* Create a React Server Component. What is the difference between SSR and CSR? What is a Server Component? 
 * Create a card and using tailwind:
     * add a gray background
     * add a shadow
